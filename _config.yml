@@ -1,8 +1,34 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: EPICS Summer School Docs
+description: Documentation for the EPICS Summer School 2024 at HZB
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
+# Enable search functionality
+search_enabled: true
+nav_enabled: true
+# Customize the navigation structure
+nav:
+  - title: Home
+    url: index.md
+  - title: About
+    url: /docs/about.md
+  - title: Creating VM from scratch
+    url: /docs/creating-vm.md
+
+# Auxiliary links
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository:
+    - https://github.com/just-the-docs/just-the-docs-template
+
+# Metadata for SEO
+meta:
+  description: Comprehensive documentation for attendees of the EPICS Summer School 2024 at HZB.
+  keywords: EPICS, Summer School, HZB, Documentation, 2024
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+
+#color_scheme: dark
