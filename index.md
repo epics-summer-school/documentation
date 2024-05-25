@@ -15,4 +15,4 @@ Welcome to the EPICS Summer School 2024 at HZB. This event provides a comprehens
 
 ## Schedule
 
-For a detailed schedule, please refer to the [EPICS Summer School Website(https://events.hifis.net/event/1259/) page.
+For a detailed schedule, please refer to the [EPICS Summer School Website](https://events.hifis.net/event/1259/) page.
