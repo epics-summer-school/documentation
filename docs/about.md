@@ -1,5 +1,5 @@
 ---
-title: Introduction to the VM
+title: How to use the VM
 layout: default
 nav_order: 2
 ---
