@@ -17,32 +17,24 @@ The VM features the following applications:
 
 Configuration for the EPICS middle layer services can be found in the ~/.epics-tools directory. The docker-compose.yml inside that repository contains the configuration of the microservices and by executing:
 
-`
-docker-compose up
-`
+`docker-compose up`
 
 all the services will be brought up and configured inside the containers. One of the services is an example IOC that should serve you to check whether the rest of the services can be reached and are working properly.
 
 To see some of the PVs from the VM use CA protocol:
 
-`
-caget epics:circle:angle
-`
+`caget epics:circle:angle`
 
 For the archiver appliance, open your browser and go to 
 
-`
-http://0.0.0.0:17665/mgmt/ui/index.html
-`
+`http://0.0.0.0:17665/mgmt/ui/index.html`
 
 You can add the PV listed above and check whether the archiver appliance will store the value of the angle in the database. 
 
 Last step involves configuring the alarm-server to our needs.
 Alarm-server the same as the other services runs inside a container:
 
-`
-docker exec -it alarm-server bash -c "cd alarm-server && ./alarm-server.sh -import config/example.ini -config epics -server localhost:9093"
-`
+`docker exec -it alarm-server bash -c "cd alarm-server && ./alarm-server.sh -import config/example.ini -config epics -server localhost:9093"`
 
 Execute the command above to configure the alarm-server with the example PV.
 
@@ -56,14 +48,11 @@ docker-compose up kafka-setup
 
 or restarting the whole applications stack
 
-`
-docker-compose down
-`
+`docker-compose down`
+
 and then bring it up again:
 
-`
-docker-compose up -d
-`
+`docker-compose up -d`
 
 It could also be useful to try to see the logs of the containers
 
