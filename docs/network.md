@@ -1,7 +1,7 @@
 ---
-title: Creating VM from scratch
+title: First task
 layout: default
-nav_order: 3
+nav_order: 5
 ---
 
 # Network for EPICS Summer School
@@ -12,4 +12,4 @@ nav_order: 3
 2. Assign static IP to your PCs 
 3. Connect devices that you will use for the project (some of them may require setting static IP or even configuring a device which already had a different IP assigned)
 
-![Network](/assets/images/network.png "Network architecture")
+![Network](/assets/images/network.png)

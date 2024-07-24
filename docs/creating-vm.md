@@ -19,7 +19,7 @@ Here are the settings we used.
 More CPUs and memory always helps -
 going lower than these values is not recommended.
 
-![VBox Settings](/assets/images/training-vm-parameters.png?raw=true "VBox Settings")
+![VBox Settings](/assets/images/training-vm-parameters.png)
 
 You can use the "Server with GUI" or "Workstation" profiles,
 no additional software modules are needed.
